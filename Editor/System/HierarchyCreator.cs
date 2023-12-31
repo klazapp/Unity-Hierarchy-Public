@@ -1,4 +1,3 @@
-using System;
 using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
@@ -26,7 +25,7 @@ namespace com.Klazapp.Editor
             //Show content
             //Hardcoded strings due to static function
             var icon = AssetDatabase.LoadAssetAtPath<Texture>(
-                "Assets/Editor/Hierarchy/Data/Hierarchy Icon.png");
+                "Packages/com.klazapp.hierarchy/Editor/Data/Hierarchy Icon.png");
             var titleContent = new GUIContent("Hierarchy Creator", icon);
             window.titleContent = titleContent;
         }
