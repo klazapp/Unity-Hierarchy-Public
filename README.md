@@ -8,7 +8,7 @@ The `Hierarchy` utility, part of the `com.Klazapp.Utility` namespace, is designe
 - Color codes each category
 
 ## Dependencies
-To use `LogMessage`, certain dependencies are required. Ensure these are included in your Unity project.
+To use `Hierarchy`, certain dependencies are required. Ensure these are included in your Unity project.
 - **Unity Version**: Minimum Unity 2020.3 LTS.
 - **Repository**: [LogMessage Unity Logger](https://github.com/klazapp/Unity-Logger-Public.git)
 - **Repository**: [LogMessage Unity Editor Helper](https://github.com/klazapp/Unity-Editor-Helper-Public.git)
