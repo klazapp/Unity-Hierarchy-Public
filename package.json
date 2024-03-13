@@ -1,6 +1,6 @@
 {
   "name": "com.klazapp.hierarchy",
-  "displayName": "Klazapp Hierarchy",
+  "displayName": "Unity Hierarchy",
   "version": "1.0.0",
   "unity": "2022.3",
   "description": "This custom Hierarchy tool changes the way developers interact with game objects within the hierarchy window.",
