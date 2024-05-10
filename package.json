@@ -3,7 +3,7 @@
   "displayName": "Unity Hierarchy",
   "version": "1.0.0",
   "unity": "2022.3",
-  "description": "This custom Hierarchy tool changes the way developers interact with game objects within the hierarchy window.",
+  "description": "Enhance your Unity Editor's hierarchy window with the Hierarchy Color package from Klazapp. This tool color-codes GameObjects based on tags, names, and properties, improving scene organization and visibility. With customizable color settings and dynamic updates, it's perfect for developers looking to quickly identify key objects and organize scenes efficiently.",
   "keywords": [
     "config",
     "file",
@@ -15,7 +15,7 @@
     "com.klazapp.logger": "1.0.0",
     "com.klazapp.editor.helper": "1.0.0"
   },
-  "author": {
+    "author": {
     "name": "Klazapp",
     "email": "klazapp@klazapp.com",
     "url": "https://www.klazapp.com"
@@ -24,3 +24,4 @@
     "changelogUrl": "https://github.com/klazapp/Unity-Hierarchy-Public",
     "licensesUrl": "https://github.com/klazapp/Unity-Hierarchy-Public"
 }
+
