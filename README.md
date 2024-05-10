@@ -1,18 +1,18 @@
-# Hierarchy Utility for Unity
+# Hierarchy Color for Unity
 
 ## Introduction
-The `Hierarchy` utility, part of the `com.Klazapp.Utility` namespace, is designed for ....
+
+The Hierarchy Color package, part of the `com.Klazapp.Editor` namespace, enhances the Unity Editor by coloring hierarchy items based on specific conditions. This tool is designed to improve scene organization and editor visibility by applying different background colors to GameObjects in the hierarchy window, helping developers quickly identify important objects or categories like TODO items or editor-only objects.
 
 ## Features
-- Separates categories of game objects
-- Color codes each category
+
+- **Visual Organization:** Automatically colors hierarchy items based on tags, names, and properties to visually distinguish between different types of GameObjects.
+- **Customizable Color Coding:** Includes predefined colors for non-empty GameObjects, empty GameObjects, TODO items, and editor-only items, with easy customization options.
+- **Dynamic UI Updates:** Integrates seamlessly into the Unity Editor, updating the hierarchy display in real-time as you work on your project.
 
 ## Dependencies
-To use `Hierarchy`, certain dependencies are required. Ensure these are included in your Unity project.
-- **Unity Version**: Minimum Unity 2020.3 LTS.
-- **Repository**: [LogMessage Unity Logger](https://github.com/klazapp/Unity-Logger-Public.git)
-- **Repository**: [LogMessage Unity Editor Helper](https://github.com/klazapp/Unity-Editor-Helper-Public.git)
-- **Unity Mathematics.dll
+
+- **Unity Editor Scripting:** This package is specifically for use within the Unity Editor and leverages Unity's Editor scripting capabilities.
 
 ## Compatibility
 | Compatibility        | URP | BRP | HDRP |
@@ -20,20 +20,20 @@ To use `Hierarchy`, certain dependencies are required. Ensure these are included
 | Compatible           | ✔️  | ✔️  | ✔️   |
 
 ## Installation
-1. Open the Unity Package Manager (`Window` > `Package Manager`).
-2. Click `+`, select `Add package from git URL...`, and enter `https://github.com/klazapp/Unity-Logger-Public.git`.
-3. Click `+`, select `Add package from git URL...`, and enter `https://github.com/klazapp/Unity-Editor-Helper-Public.git`.
-4. Unity will download and make the package available in your project.
+
+1. Download the Hierarchy Color package from the [GitHub repository](https://github.com/klazapp/Unity-Hierarchy-Color-Public.git) or via the Unity Package Manager.
+2. Add the scripts to your Unity project, ideally within an Editor folder to ensure they are only compiled for editor use.
 
 ## Usage
-```csharp
-Write Something here
-```
 
+The Hierarchy Color functionality is automatic once the scripts are included in your project. It will start applying colors based on the conditions defined in the scripts, with no additional setup required.
 
 ## To-Do List (Future Features)
-- 
+
+- [ ] Provide a GUI for customizing color settings directly from the Unity Editor.
+- [ ] Expand the conditions for color coding to include user-defined tags and properties.
+- [ ] Enhance performance for large projects with many hierarchy items.
 
 ## License
-This utility is released under the [MIT License](LICENSE).
 
+This utility is released under the MIT License, allowing for free use, modification, and distribution within your projects.
